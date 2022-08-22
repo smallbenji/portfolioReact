@@ -1,0 +1,21 @@
+@import '../../global.scss';
+
+.FrontPage {
+    background-color: $background;
+    display: flex;
+
+    .left {
+        flex: 0.5;
+        
+        .selfie {
+            border-radius: 50%;
+            width: 50vh;
+            left: 0px;
+        }
+    }
+
+    .right {
+        flex: 0.5;
+    }
+    
+}
